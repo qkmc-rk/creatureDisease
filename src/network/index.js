@@ -3,7 +3,7 @@ export let isDev = false
 import router from '../router'
 import el from 'element-ui'
 import qs from 'qs'
-export const baseURL = isDev ? "http://rap2.taobao.org:38080/app/mock/245259" : "http://ruankun.xyz:8821/disease/"
+export const baseURL = isDev ? "http://rap2.taobao.org:38080/app/mock/245259" : "https://addlab.wwtx.com.cn/back/disease/"
 const service = axios.create({
     baseURL,
 })
